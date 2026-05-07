@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./css/Form.css";
 
 const Form = ({ addcontact }) => {
 
@@ -13,9 +14,9 @@ const Form = ({ addcontact }) => {
         };
         
         addcontact(newContact);
-        // console.log(people);
+     
 
-        // Clear form
+      
         setName("");
         setEmail("");
 
@@ -40,9 +41,9 @@ const Form = ({ addcontact }) => {
 
             
                     
-                    style={{ marginLeft: "10px" }}
+                    
                 />
-                <button type="submit" style={{ marginLeft: "10px" }}>
+                <button type="submit">
                     Add Person
                 </button>
             </form>

@@ -5,7 +5,6 @@ const Item = ({ contact, index, deleteContact }) => {
 
       <button
         onClick={() => deleteContact(index)}
-        style={{ marginLeft: "10px" }}
       >
         Delete
       </button>

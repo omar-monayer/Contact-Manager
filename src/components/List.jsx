@@ -1,8 +1,9 @@
 import Item from "./Item";
+import "./css/List.css";
 
 const List = ({ contacts, deleteContact }) => {
   return (
-    <div>
+    <div className="list-container">
       <h2>Contact List</h2>
 
       {contacts.length === 0 ? (

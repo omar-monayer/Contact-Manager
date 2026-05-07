@@ -1,0 +1,62 @@
+/* List Container */
+.list-container {
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Contact List */
+.list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Each Contact Item */
+.list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Contact Text */
+.list-container li strong {
+    color: #222;
+}
+
+/* Delete Button */
+.list-container li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.list-container li button:hover {
+    background-color: #c0392b;
+}
+
+/* Empty Message */
+.list-container p {
+    text-align: center;
+    color: #777;
+}
